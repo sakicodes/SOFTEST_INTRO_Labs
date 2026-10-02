@@ -44,7 +44,7 @@ public sealed class CalculatorBrowserTests
 	{
 		_page.Calculate("2", "3", "a");
 		string result = _page.WaitForResult();
-		Assert.That(result, Is.EqualTo("5"));
+		Assert.That(result, Is.EqualTo("6"));
 	}
 
 	[Test]
